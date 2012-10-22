@@ -1,0 +1,15 @@
+/**************
+ *  Implement A TaskFilters interface class
+ */
+	    
+public class TaskFilterImplem implements TaskFilter {
+	
+	public Task[] sortbydate( Task[] tasks, boolean dataflag) {
+		System.out.println("In sortbydate of TaskFilterImplem method" + "\n");
+	}
+		
+	public Task[] sortbydoctor( Task[] tasks, boolean alphaflag) {
+		System.out.println("In sortbydoctor of TaskFilterImplem method" + "\n");
+		
+	}
+	
